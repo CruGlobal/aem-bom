@@ -7,6 +7,10 @@
     <version>1.0</version>
     <description>AEM Bill of Materials</description>
 
+    <scm>
+        <developerConnection>scm:git:https://github.com/CruGlobal/aem-bom.git</developerConnection>
+    </scm>
+
     <properties>
         <aem.version>6.3.0</aem.version>
         <acs-commons.version>3.10.0</acs-commons.version>
