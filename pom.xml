@@ -7,9 +7,59 @@
     <version>1.0</version>
     <description>AEM Bill of Materials</description>
 
+    <properties>
+        <aem.version>6.3.0</aem.version>
+        <acs-commons.version>3.10.0</acs-commons.version>
+        <guava.version>22.0</guava.version>
+        <jackson.version>2.8.4</jackson.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
-            
+            <!-- Adobe's Uber Jar -->
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>uber-jar</artifactId>
+                <version>${aem.version}</version>
+                <classifier>apis</classifier>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- ACS Commons -->
+            <dependency>
+                <groupId>com.adobe.acs</groupId>
+                <artifactId>acs-aem-commons-bundle</artifactId>
+                <version>${acs-commons.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Jackson -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
+                <scope>provided</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
