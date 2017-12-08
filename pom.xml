@@ -20,6 +20,7 @@
         <felix.annotations.version>1.9.6</felix.annotations.version>
         <bnd.version>1.50.0</bnd.version>
         <osgi.version>4.2.0</osgi.version>
+        <slf4j.version>1.7.21</slf4j.version>
     </properties>
 
     <dependencyManagement>
@@ -98,6 +99,14 @@
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.compendium</artifactId>
                 <version>${osgi.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Logging Dependencies -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
                 <scope>provided</scope>
             </dependency>
         </dependencies>
