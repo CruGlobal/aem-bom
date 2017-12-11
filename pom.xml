@@ -28,6 +28,9 @@
         <bnd.version>1.50.0</bnd.version>
         <osgi.version>4.2.0</osgi.version>
         <slf4j.version>1.7.21</slf4j.version>
+        <junit.version>4.8.2</junit.version>
+        <junit.addons.version>1.4</junit.addons.version>
+        <mockito.version>1.9.5</mockito.version>
     </properties>
 
     <dependencyManagement>
@@ -167,6 +170,32 @@
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <!-- Testing -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>${slf4j.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>junit-addons</groupId>
+                <artifactId>junit-addons</artifactId>
+                <version>${junit.addons.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>${mockito.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
