@@ -19,6 +19,7 @@
         <servlet.api.version>2.4</servlet.api.version>
         <jsp.api.version>2.1</jsp.api.version>
         <jcr.version>2.0</jcr.version>
+        <taglib.version>5.7.4</taglib.version>
         <guava.version>22.0</guava.version>
         <jackson.version>2.8.4</jackson.version>
         <felix.version>1.6.0</felix.version>
@@ -80,6 +81,14 @@
                 <groupId>javax.jcr</groupId>
                 <artifactId>jcr</artifactId>
                 <version>${jcr.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Taglibs -->
+            <dependency>
+                <groupId>com.day.cq.wcm</groupId>
+                <artifactId>cq-wcm-taglib</artifactId>
+                <version>${taglib.version}</version>
                 <scope>provided</scope>
             </dependency>
 
