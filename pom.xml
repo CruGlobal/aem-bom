@@ -11,6 +11,14 @@
         <developerConnection>scm:git:https://github.com/CruGlobal/aem-bom.git</developerConnection>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>cruglobal-releases</name>
+            <url>https://cruglobal.jfrog.io/cruglobal/maven-cru-private-releases-local</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <aem.version>6.3.0</aem.version>
         <sling.version>1.2.2</sling.version>
