@@ -4,7 +4,7 @@
     <groupId>org.cru</groupId>
     <artifactId>aem-bom</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
+    <version>1.1</version>
     <description>AEM Bill of Materials</description>
 
     <scm>
@@ -20,7 +20,7 @@
     </distributionManagement>
 
     <properties>
-        <aem.version>6.3.0</aem.version>
+        <aem.version>6.4.0</aem.version>
         <sling.version>1.2.2</sling.version>
         <geronimo.version>1.0</geronimo.version>
         <acs-commons.version>3.14.10</acs-commons.version>
@@ -63,6 +63,12 @@
                 <groupId>org.apache.geronimo.specs</groupId>
                 <artifactId>geronimo-atinject_1.0_spec</artifactId>
                 <version>${geronimo.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.api</artifactId>
+                <version>2.16.4</version>
                 <scope>provided</scope>
             </dependency>
 
