@@ -23,7 +23,7 @@
         <aem.version>6.4.2</aem.version>
         <sling.version>1.2.2</sling.version>
         <geronimo.version>1.0</geronimo.version>
-        <acs-commons.version>3.17.0</acs-commons.version>
+        <acs-commons.version>3.19.0</acs-commons.version>
         <servlet.api.version>3.1.0</servlet.api.version>
         <jsp.api.version>2.1</jsp.api.version>
         <jcr.version>2.0</jcr.version>
