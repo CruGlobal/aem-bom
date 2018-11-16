@@ -20,7 +20,7 @@
     </distributionManagement>
 
     <properties>
-        <aem.version>6.4.1</aem.version>
+        <aem.version>6.4.2</aem.version>
         <sling.version>1.2.2</sling.version>
         <geronimo.version>1.0</geronimo.version>
         <acs-commons.version>3.17.0</acs-commons.version>
