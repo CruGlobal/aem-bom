@@ -20,7 +20,7 @@
     </distributionManagement>
 
     <properties>
-        <io.wcm.aem.version>6.4.2.0000</io.wcm.aem.version>
+        <io.wcm.aem.version>6.4.5.0000</io.wcm.aem.version>
         <io.wcm.aem.mock.version>2.5.0</io.wcm.aem.mock.version>
         <acs-commons.version>3.19.0</acs-commons.version>
         <taglib.version>5.7.4</taglib.version>
