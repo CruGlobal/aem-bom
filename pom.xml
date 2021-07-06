@@ -27,7 +27,7 @@
         <guava.version>22.0</guava.version>
         <junit.addons.version>1.4</junit.addons.version>
         <mockito.version>1.9.5</mockito.version>
-        <cru-aem-commons.version>1.3.11</cru-aem-commons.version>
+        <cru-aem-commons.version>1.3.13</cru-aem-commons.version>
         <logback.version>1.2.3</logback.version>
     </properties>
 
