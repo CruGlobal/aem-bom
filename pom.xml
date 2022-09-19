@@ -23,7 +23,7 @@
         <io.wcm.aem.version>2022.7.8085.20220725T140323Z-220600.0000</io.wcm.aem.version>
         <io.wcm.aem.mock.version>5.0.0</io.wcm.aem.mock.version>
         <acs-commons.version>3.19.0</acs-commons.version>
-        <taglib.version>5.8.2</taglib.version> <!-- The version in AEM is 5.12.10, but it doesn't exist in Maven -->
+        <taglib.version>5.8.2</taglib.version> <!-- The version in AEM is 5.13.6, but it doesn't exist in Maven -->
         <guava.version>22.0</guava.version>
         <junit.addons.version>1.4</junit.addons.version>
         <mockito.version>1.9.5</mockito.version>
