@@ -28,7 +28,7 @@
         <junit.addons.version>1.4</junit.addons.version>
         <mockito.version>1.9.5</mockito.version>
         <cru-aem-commons.version>3.0.0-SNAPSHOT</cru-aem-commons.version>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.3.12</logback.version>
         <javax.annotation.version>1.3.2</javax.annotation.version>
         <wcm.io.testing.version>4.1.2</wcm.io.testing.version>
     </properties>
